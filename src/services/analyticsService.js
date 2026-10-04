@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API_URL =
-    "http://localhost:5000/api";
+    "https://lock-system-backend.onrender.com/api";
 
 
 const getAuthHeaders = () => {
