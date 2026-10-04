@@ -5,7 +5,7 @@ import {
     lockSystem,
     unlockSystem
 } from "../services/lockService";
-
+import UsageAnalytics from "../components/UsageAnalytics";
 import LockStatus from "../components/LockStatus";
 import LockButton from "../components/LockButton";
 
@@ -112,6 +112,8 @@ const Dashboard = () => {
                         {error}
                     </p>
                 )}
+
+                <UsageAnalytics />
 
             </main>
 
